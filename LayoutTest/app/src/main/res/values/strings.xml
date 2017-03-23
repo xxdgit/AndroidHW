@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+    <string name="problem"> 1、The Williams live ___ 188 Fleet Street.</string>
+    <string name="on">on</string>
+    <string name="at">at</string>
+    <string name="of">of</string>
+    <string name="in">in</string>
+    <string name="sure">确  定</string>
+    <string name="cancel">取  消</string>
+    <string name="return_last_view">返回上一页</string>
+</resources>

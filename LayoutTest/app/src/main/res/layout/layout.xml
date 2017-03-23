@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/problem"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/on"
+            android:textSize="25sp"
+            android:layout_marginRight="11dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/at"
+            android:textSize="25sp"
+            android:layout_marginRight="11dp"/>
+        <RadioButton
+            android:id="@+id/rb_of"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/of"
+            android:textSize="25sp"
+            android:layout_marginRight="11dp"/>
+        <RadioButton
+            android:id="@+id/rb_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in"
+            android:textSize="25sp"
+            android:layout_marginRight="11dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sure"
+            android:textSize="25sp"/>
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/cancel"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+</LinearLayout>
